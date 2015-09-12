@@ -175,7 +175,7 @@
         status: false,
         name: "BOYBOT",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/MATIAS51PLUG/Jamie-BOT/master/bot.js",
+        scriptLink: "https://rawgit.com/MATIAS51PLUG/bot-mio/master/bot.js",
         cmdLink: "NONE",
         chatLink: "https://rawgit.com/MATIAS51PLUG/bot-mio/master/en.json",
         chat: null,
