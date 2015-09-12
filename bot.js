@@ -176,7 +176,7 @@
         name: "BOYBOT",
         loggedInID: null,
         scriptLink: "https://rawgit.com/MATIAS51PLUG/bot-mio/master/bot.js",
-        cmdLink: "NONE",
+        cmdLink: "https://rawgit.com/bscBot/source/master/commands.md",
         chatLink: "https://rawgit.com/MATIAS51PLUG/bot-mio/master/en.json",
         chat: null,
         loadChat: loadChat,
