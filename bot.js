@@ -2246,9 +2246,8 @@
                         } else return API.sendChat(subChat(trapbot.chat.invalidpositionspecified, {name: chat.un}));
                     }
                 }
-            },
-
-        gifCommand: {
+            }
+            gifCommand: {
                 command: ['gif', 'giphy'],
                 rank: 'user',
                 type: 'startsWith',
