@@ -47,7 +47,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/MATIAS51PLUG/Jamie-BOT/master/langIndex.json", function (json) {
+        $.get("https://rawgit.com/MATIAS51PLUG/bot-mio/master/langIndex.json", function (json) {
             var link = trapbot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -171,21 +171,21 @@
     var botCreatorIDs = [];
 
     var trapbot = {
-        version: "4.8.9 Update",
+        version: "4.8.9 ",
         status: false,
-        name: "Jamie-BOT",
+        name: "BOYBOT",
         loggedInID: null,
         scriptLink: "https://rawgit.com/MATIAS51PLUG/Jamie-BOT/master/bot.js",
-        cmdLink: "http://electronicfamilyofficial.jimdo.com/jamie-bot-commands",
-        chatLink: "https://rawgit.com/MATIAS51PLUG/Jamie-BOT/master/english.json",
+        cmdLink: "NONE",
+        chatLink: "https://rawgit.com/MATIAS51PLUG/bot-mio/master/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "Jamie-BOT",
+            botName: "BOYBOT",
             language: "english",
-            chatLink: "https://rawgit.com/MATIAS51PLUG/Jamie-BOT/master/english.json",
+            chatLink: "https://rawgit.com/MATIAS51PLUG/bot-mio/master/en.json",
             maximumAfk: 120,
             afkRemoval: false,
             maximumDc: 60,
