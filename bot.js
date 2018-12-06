@@ -47,7 +47,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/MATIAS51PLUG/bot-mio/master/langIndex.json", function (json) {
+        $.get("https://cdn.jsdelivr.net/gh/MATIAS51PLUG/bot-mio/langIndex.json", function (json) {
             var link = trapbot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -175,9 +175,9 @@
         status: false,
         name: "BOYBOT",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/MATIAS51PLUG/bot-mio/master/bot.js",
-        cmdLink: "https://rawgit.com/bscBot/source/master/commands.md",
-        chatLink: "https://rawgit.com/MATIAS51PLUG/bot-mio/master/en.json",
+        scriptLink: "https://cdn.jsdelivr.net/gh/MATIAS51PLUG/bot-mio/bot.js",
+        cmdLink: "https://cdn.jsdelivr.net/gh/bscBot/source/commands.md",
+        chatLink: "https://cdn.jsdelivr.net/gh/MATIAS51PLUG/bot-mio/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -185,7 +185,7 @@
         settings: {
             botName: "BOYBOT",
             language: "english",
-            chatLink: "https://rawgit.com/MATIAS51PLUG/bot-mio/master/en.json",
+            chatLink: "https://cdn.jsdelivr.net/gh/MATIAS51PLUG/bot-mio/en.json",
             maximumAfk: 120,
             afkRemoval: false,
             maximumDc: 60,
